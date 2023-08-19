@@ -84,8 +84,11 @@ function modal(){
     const totalPrice = document.getElementById('total-price');
     const discount = document.getElementById('discount');
     const price = document.getElementById('total');
+    const btnKupon = document.getElementById('btn-kupon');
+    btnKupon.disabled = true;
     titleContainer.innerText = '';
     totalPrice.innerText = '';
     discount.innerText = '';
     price.innerText = '';
+    
 }
