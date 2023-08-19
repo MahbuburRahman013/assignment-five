@@ -74,6 +74,18 @@ function kupon(){
         let total1 = totalPrice - parsent20;
         let total2 = total1.toFixed(2);
         total.innerText = `${total2} tk`
+        kupon1.value = '';
     }
-    kupon1.value = '';
+    
+}
+
+function modal(){
+    const titleContainer = document.getElementById('title-container');
+    const totalPrice = document.getElementById('total-price');
+    const discount = document.getElementById('discount');
+    const price = document.getElementById('total');
+    titleContainer.innerText = '';
+    totalPrice.innerText = '';
+    discount.innerText = '';
+    price.innerText = '';
 }
