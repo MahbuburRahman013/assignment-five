@@ -34,6 +34,8 @@ function kupon(){
         let total2 = total1.toFixed(2);
         total.innerText = `${total2} TK`
         kupon1.value = '';
+    }else{
+        alert('The Coupon is not valid')
     }
     
 }
